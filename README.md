@@ -16,7 +16,7 @@ Exploratory network-traffic analysis, cleaning, feature analysis, supervised int
 
 ## Repository layout
 
-- `report/course-report-redacted.pdf` — student-ID-redacted copy of the submitted report with methodology, findings, plots and code appendix
+- Redacted course report (PDF) — included in the separate portfolio ZIP archive supplied in the accompanying ChatGPT conversation; not uploaded to this GitHub repository
 - Source files:
   - `notebooks/cicids2017_analysis.ipynb`
 
@@ -39,4 +39,9 @@ The original notebook includes two train/test strategies and three classifier fa
 
 ## Credits
 
-Coursework authored by Spiros Bantis, University of Patras. The report remains the reference for experimental setup and observed results. Refer to the assignment for technical details.
+Coursework authored by Spiros Bantis, University of Patras. The original course report (available in the separately provided project archive) remains the reference for the experimental setup and observed results. Refer to the assignment for technical details.
+
+
+## Report availability
+
+The original coursework report is provided separately as a privacy-redacted PDF in the downloadable project ZIP prepared for this portfolio. Its figures and results have **not** been uploaded to this repository. The source code is available above. The original notebook has been preserved without stored outputs and has not been independently re-executed in this repository; the CICIDS2017 dataset is not bundled.
