@@ -1,22 +1,42 @@
-# CICIDS2017 — Intrusion Detection and Data Mining
+# CICIDS2017 — Intrusion Detection & Data Mining
 
-**Python · Jupyter · Cybersecurity Analytics**
+**Python · Jupyter Notebook** · University of Patras · Data Mining coursework
 
-Data-mining coursework analyzing network-flow traffic in the CICIDS2017 dataset, from exploratory analysis and preprocessing to supervised intrusion classification and unsupervised clustering.
+Exploratory network-traffic analysis, cleaning, feature analysis, supervised intrusion classification and clustering using the CICIDS2017 dataset.
 
-## Techniques
-- Data cleaning, missing values, exploratory analysis and feature correlations
-- Logistic Regression, Decision Tree and Random Forest
-- SMOTE class balancing
-- PCA dimensionality reduction
-- K-Means, hierarchical clustering and DBSCAN
+## What this project covers
 
-## Reproducing the analysis
-The prepared notebook is `notebooks/cicids2017_analysis.ipynb`. The original runs used Google Colab and Google Drive paths; edit the paths for your own environment and obtain the CICIDS2017 CSV files directly from the dataset provider. Large datasets and saved notebook outputs are intentionally not included.
+- Python / Jupyter
+- network intrusion detection
+- data cleaning and EDA
+- feature correlation and selection
+- Logistic Regression, Decision Tree, Random Forest
+- SMOTE
+- PCA, K-Means, hierarchical clustering, DBSCAN
 
-> **Evaluation caveat:** Results should be interpreted in the context of the preprocessing and train/test split used in each experiment. For realistic intrusion detection, avoid data leakage by applying learned preprocessing and SMOTE only on training data.
+## Repository layout
 
-**Current repository status:** Documentation initialized. The notebook and redacted course report are being transferred from the prepared project archive.
+- `report/course-report-redacted.pdf` — student-ID-redacted copy of the submitted report with methodology, findings, plots and code appendix
+- Source files:
+  - `notebooks/cicids2017_analysis.ipynb`
 
-## Author
-Spiros Bantis · Electrical & Computer Engineering · University of Patras
+## Getting started
+
+Install `requirements.txt`, obtain the CICIDS2017 CSV data from the dataset owner, configure the initial notebook paths and run the cells top to bottom. The notebook includes Google Colab-specific setup.
+
+### Data / software dependencies
+
+- CICIDS2017 CSV files; not included in the archive due to dataset size and third-party licensing
+- Google Colab / Google Drive path configuration as used in the original notebook
+
+The datasets and any large/generated artifacts have deliberately not been added to version control.
+
+## Technical notes
+
+The original notebook includes two train/test strategies and three classifier families, plus unsupervised clustering experiments.
+
+**Source provenance and execution status:** For a clean repository, stored notebook cell outputs were removed; computation and Markdown cells were retained. Source analysis results and figures remain in the original PDF. This is a presentation cleanup, not a rerun of the analysis.
+
+## Credits
+
+Coursework authored by Spiros Bantis, University of Patras. The report remains the reference for experimental setup and observed results. Refer to the assignment for technical details.

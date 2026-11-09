@@ -2,7 +2,7 @@ numpy
 pandas
 matplotlib
 seaborn
+missingno
 scikit-learn
 imbalanced-learn
 scipy
-jupyter
